@@ -1,0 +1,10 @@
+.experiences h2{
+  font-family: 'Raleway', sans-serif;
+  color: #34373C;
+}
+.experiences .company{
+  color: rgb(110, 108, 110);
+}
+.experiences .date{
+  font-family: 'Libre Baskerville', serif;
+}

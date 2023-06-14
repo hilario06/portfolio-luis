@@ -1,0 +1,11 @@
+.title-projects h3 {
+  font-family: 'Libre Baskerville', serif;
+  color: #34373C;
+}
+.list-technologies h3 {
+  color: rgb(57, 103, 131);
+}
+.list-technologies .description{
+  font-family: 'Libre Baskerville', serif;
+  color: #34373C;
+}

@@ -1,0 +1,48 @@
+.google-fonts a{
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  color: #34373C;
+}
+.google-fonts .active::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #34373C;
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+  top: -3px;
+}
+.google-fonts a:hover::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+  top: -3px;
+  background-color: #396783;
+}
+@media only screen and (min-width: 640px) {
+  .google-fonts .active::after {
+    animation: grow .8s cubic-bezier(.25, 1, .5, 1);
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+    display: block;
+    top: auto;
+  }
+  .google-fonts a:hover::after {
+    animation: grow .8s cubic-bezier(.25, 1, .5, 1);
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+    display: block;
+    top: auto;
+}
+}
