@@ -74,13 +74,18 @@ export const MyProjects = () => {
           <section className="pb-12 list-technologies" key={ project.name }>
             <h3 className="uppercase text-base font-bold mb-2">
               { project.title }
-              <a
-                href={ project.urlGitHub }
-                target="_blank"
-                className="ml-3"
-                rel="noreferrer">
-                <img src="/github2.svg" alt="" className="inline-block" width={40}/>
-              </a>
+              {
+                project.urlGitHub && (
+                  <a
+                    href={ project.urlGitHub }
+                    target="_blank"
+                    className="ml-3"
+                    rel="noreferrer">
+                    <img src="/github2.svg" alt="" className="inline-block" width={40}/>
+                  </a>
+                )
+              }
+
             </h3>
             <p className="font-serif italic text-lg mb-2 description">{ project.description }</p>
             <ul className="flex flex-wrap mb-2" aria-label="Technologies used">
