@@ -39,6 +39,26 @@ export const MyProjects = () => {
       description: "",
       urlGitHub: 'https://github.com/hilario06/stimulus-gifs',
       UrlDocumentation: '',
+    },
+    {
+      title: 'Hotel Green Paradise - Tingo María',
+      name: 'hotel-green-paradise',
+      slides: [],
+      technologies: ['Javascript', 'css', 'Bootstrap'],
+      description: "Hotel Green Paradise - Tingo María 2 estrellas ubicado en Tingo María Raymondi 687 de Tingo María a la distancia de 20 minutos del centro.",
+      urlGitHub: '',
+      UrlDocumentation: '',
+      urlWeb: 'https://www.greenparadisehotel.com/'
+    },
+    {
+      title: 'Dar Tech - Tingo María',
+      name: 'hotel-green-paradise',
+      slides: [],
+      technologies: ['Javascript', 'css', 'Bulma CSS', 'SASS'],
+      description: "Dar Tech es una empresa orientada a ofrecer productos y servicios tecnológicos, que busca contribuir al desarrollo y crecimiento de tu empresa.",
+      urlGitHub: '',
+      UrlDocumentation: '',
+      urlWeb: 'https://dartechperu.com/'
     }
   ]
 
@@ -82,6 +102,17 @@ export const MyProjects = () => {
                     target="_blank"
                     rel="noreferrer"
                     className="text-teal-600 underline">Documentación</a>
+                </p>
+              )
+            }
+            {
+              project.urlWeb && (
+                <p className="font-serif italic text-lg mb-2">
+                  <a
+                    href={ project.urlWeb }
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-teal-600 underline">Página Web</a>
                 </p>
               )
             }
