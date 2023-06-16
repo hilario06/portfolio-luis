@@ -1,5 +1,6 @@
 import { Carousel } from "../../Components/Carousel";
 import { Layout } from "../../Components/Layout";
+import { HiArrowRight } from 'react-icons/hi2';
 import "./MyProjects.css";
 
 export const MyProjects = () => {
@@ -52,7 +53,7 @@ export const MyProjects = () => {
     },
     {
       title: 'Dar Tech - Tingo María',
-      name: 'hotel-green-paradise',
+      name: 'dar-tech',
       slides: [],
       technologies: ['Javascript', 'css', 'Bulma CSS', 'SASS'],
       description: "Dar Tech es una empresa orientada a ofrecer productos y servicios tecnológicos, que busca contribuir al desarrollo y crecimiento de tu empresa.",
@@ -72,17 +73,20 @@ export const MyProjects = () => {
       {
         projects.map((project) => (
           <section className="pb-12 list-technologies" key={ project.name }>
-            <h3 className="uppercase text-base font-bold mb-2">
+            <h3 className="flex items-center uppercase text-base font-bold mb-2">
               { project.title }
               {
                 project.urlGitHub && (
-                  <a
-                    href={ project.urlGitHub }
-                    target="_blank"
-                    className="ml-3"
-                    rel="noreferrer">
-                    <img src="/github2.svg" alt="" className="inline-block" width={40}/>
-                  </a>
+                  <>
+                    <HiArrowRight size={30} className="ml-2 icon-arrow"/>
+                    <a
+                      href={ project.urlGitHub }
+                      target="_blank"
+                      className="ml-2"
+                      rel="noreferrer">
+                      <img src="/github2.svg" alt="" className="inline-block" width={40}/>
+                    </a>
+                  </>
                 )
               }
 

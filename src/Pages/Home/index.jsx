@@ -44,7 +44,7 @@ export const Home = () => {
   return (
     <Layout>
       <section className="py-24 presentation">
-        <h1 className="font-bold text-4xl mb-4">👋 Hola, mi nombre es Luis Hilario Huamán.</h1>
+        <h1 className="font-bold text-4xl mb-4"><span>👋</span> Hola, mi nombre es Luis Hilario Huamán.</h1>
         <h2 className="font-serif italic text-2xl">
           Soy un desarrollador web de Perú, y actualmente formo parte del equipo de Drupvon como Full Stack Developer. En mi tiempo libre, disfruto jugando al fútbol para mantenerme activo y equilibrado. Además, soy un apasionado del aprendizaje continuo y siempre busco cursos y recursos relacionados con el desarrollo web para ampliar mis habilidades. Mis herramientas preferidas son Ruby y Ruby on Rails para el backend, y JavaScript y React para el frontend. Estoy entusiasmado por explorar nuevas tecnologías y desafíos para seguir evolucionando como desarrollador.
         </h2>
