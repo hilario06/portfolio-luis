@@ -14,7 +14,7 @@ export const Footer = () => {
             <a className="font-serif text-lg opacity-80 hover:opacity-100 underline" href="https://github.com/hilario06" target="_blank" rel="noreferrer">GitHub</a>
           </li>
           <li>
-            <a className="font-serif text-lg opacity-80 hover:opacity-100 underline" href="https://www.linkedin.com/in/luis-miguel-hilario-huaman/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a className="font-serif text-lg opacity-80 hover:opacity-100 underline" href="https://www.linkedin.com/in/luis-hilario-huaman/" target="_blank" rel="noreferrer">LinkedIn</a>
           </li>
           <li>
             <a className="font-serif text-lg opacity-80 hover:opacity-100 underline" href="mailto:hilario.huaman.6@gmail.com?subject=Email from your website" target="_blank" rel="noreferrer">Email</a>
