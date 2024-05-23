@@ -49,7 +49,7 @@ export const MyProjects = () => {
       description: "Hotel Green Paradise - Tingo María 2 estrellas ubicado en Tingo María Raymondi 687 de Tingo María a la distancia de 20 minutos del centro.",
       urlGitHub: '',
       UrlDocumentation: '',
-      urlWeb: 'https://www.greenparadisehotel.com/'
+      urlWeb: 'https://greenparadisehotel.com/'
     },
     {
       title: 'Dar Tech - Tingo María',
