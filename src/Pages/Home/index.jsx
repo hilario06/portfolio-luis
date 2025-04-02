@@ -46,7 +46,7 @@ export const Home = () => {
       <section className="py-24 presentation">
         <h1 className="font-bold text-4xl mb-4"><span>👋</span> Hola, mi nombre es Luis Hilario Huamán.</h1>
         <h2 className="font-serif italic text-2xl">
-        Soy un desarrollador web de Perú, apasionado por el aprendizaje continuo y siempre en busca de cursos y recursos relacionados con el desarrollo web para ampliar mis habilidades. Mis herramientas preferidas son Ruby on Rails para el backend, y React y Vue Js para el frontend. Estoy entusiasmado por explorar nuevas tecnologías y desafíos para seguir evolucionando como desarrollador. En mi tiempo libre, disfruto jugando al fútbol para mantenerme activo y equilibrado.
+        Soy un desarrollador web de Perú, apasionado por el aprendizaje continuo y siempre en busca de cursos y recursos relacionados con el desarrollo web para ampliar mis habilidades. Mis herramientas preferidas son Ruby on Rails para el backend, y Angular, React y Vue Js para el frontend. Estoy entusiasmado por explorar nuevas tecnologías y desafíos para seguir evolucionando como desarrollador. En mi tiempo libre, disfruto jugando al fútbol para mantenerme activo y equilibrado.
         </h2>
       </section>
       <section className="pb-12 technologies">
