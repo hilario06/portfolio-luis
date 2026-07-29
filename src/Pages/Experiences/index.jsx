@@ -3,7 +3,24 @@ import "./Experiences.css";
 
 const experiencies = [
   {
-    'date': 'Jul. 2024 - Presente',
+    'date': 'May. 2025 - Presente',
+    'position': 'Desarrollador Full Stack',
+    'company': 'ECapture',
+    'description': 'Plataforma de gestión documental y automatización de procesos orientada a la captura, validación, clasificación, indexación y trazabilidad de documentos, con soporte para workflows BPM, reglas de negocio, OCR e inteligencia artificial.',
+    'projects': {
+      'isVariousProjects': false,
+      'tasks': [
+        'Participé en el desarrollo y mantenimiento de módulos frontend y backend para la gestión documental, flujos de trabajo, reportes dinámicos y formularios configurables.',
+        'Colaboré en funcionalidades relacionadas con configuración de procesos BPMN, colas de trabajo y reglas de negocio.',
+        'Integré servicios para procesamiento documental, incluyendo conversión de archivos, extracción de texto por OCR, clasificación e indexación de documentos.',
+        'Ejecuté refactorizaciones, corrección de bugs, optimización de consultas SQL y mejoras de rendimiento en distintos servicios de la plataforma.',
+        'Desarrollé formularios externos para la gestión y validación de trámites de afiliación, con funcionalidades de reportes, exportación y trazabilidad documental.',
+      ],
+      'technologies': ['Go', 'Python', 'TypeScript', 'PostgreSQL', 'Docker', 'Angular', 'PrimeNG', 'Tailwind CSS', 'ECharts', 'GraphQL', 'REST API', 'xlsx', 'Azure DevOps']
+    },
+  },
+  {
+    'date': 'Jul. 2024 - May. 2025',
     'position': 'Desarrollador Full Stack',
     'company': 'JJSS CONSULTING E.I.R.L.',
     'description': '',
@@ -25,7 +42,7 @@ const experiencies = [
           'technologies': ['Angular', 'Ant Design', 'Node JS', 'Express', 'Azure', 'MongoDB', 'Echarts', 'xlsx', 'Trello']
         },
         {
-          'name': 'Proyecto - Das Excelencia Comercial',
+          'name': 'Proyecto - Excelencia Comercial',
           'tasks': [
             'Colaboré en la migración de Power BI a una aplicación web, que consiste en recopilar información, como el número de ventas, el tiempo de entrega, etc., de los productos BACKUS en todas las cadenas del Perú.',
             'Construí la interfaz de la aplicación web igual a lo que estaba en Power BI y añadiendo que sea responsive.',
@@ -62,7 +79,7 @@ const experiencies = [
     },
   },
   {
-    'date': 'Nov. 2023 - Abr 2024',
+    'date': 'Jul. 2023 - Jun. 2024',
     'position': 'Desarrollador Full Stack',
     'company': 'TRUDAN SPA (Kuroro)',
     'description': 'Empresa que destaca con su juego Kuroro Beasts (Juego donde cada participante recibe 7 bestias aleatorias por semana, con la opción de adquirir más. Los jugadores pueden automatizar sus bestias según su estrategia. Para jugar, seleccionan 5 bestias y deben derrotar a las bestias del oponente para ganar).',
@@ -73,9 +90,9 @@ const experiencies = [
         "Capturé las direcciones IP de cada dispositivo para identificar usuarios con múltiples cuentas.",
         'Agregué nuevas insignias y su otorgación de experiencia (EXP).',
         'Agregué nuevas misiones temporales con otorgación de experiencia (EXP).',
-        'Identifiqué y corregí diversos bugs reportados por los usuarios, optimize y refactorice código.'
+        'Identifiqué y corregí diversos bugs reportados por los usuarios, optimicé y refactoricé código.'
       ],
-      'technologies': ['Nest JS', 'React JS', 'Tailwind CSS', 'Chakra UI', 'PostgreSQL', 'MongoDB', 'Git', 'Linear']
+      'technologies': ['Java', 'Spring Boot', 'Nest JS', 'React JS', 'Tailwind CSS', 'Chakra UI', 'PostgreSQL', 'MongoDB', 'Git', 'Linear']
     },
   },
   {
@@ -119,9 +136,14 @@ const experiencies = [
       'isVariousProjects': false,
       'tasks': [
         "Desarrollé servicios web para soportar funcionalidades de pedidos, carta-menú, ambientes (mesas).",
-        "Diseñé y construí APIs.",
+        "Realicé el análisis, diseño y construcción de requisitos funcionales.",
+        "Diseñé y construí la base de datos.",
+        "Utilicé arquitecturas Layered y MVC.",
+        "Utilicé patrones de diseño como Dependency Injection, Repository y Domain Oriented Database.",
+        "Implementé principios SOLID y Clean Code.",
+        "Construí e interactué con Web API y API REST.",
       ],
-      'technologies': ['C#', 'Net Core', 'Angular', 'Angular Material', 'PostgreSQL', 'Git']
+      'technologies': ['Ruby on Rails', 'Angular', 'Angular Material', 'PostgreSQL', 'Git']
     },
   }
 ];
